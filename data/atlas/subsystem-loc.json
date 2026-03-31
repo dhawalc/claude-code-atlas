@@ -1,0 +1,50 @@
+[
+  {
+    "name": "utils",
+    "dir": "src/utils",
+    "files": 565,
+    "lines": 181613
+  },
+  {
+    "name": "components",
+    "dir": "src/components",
+    "files": 389,
+    "lines": 82352
+  },
+  {
+    "name": "services",
+    "dir": "src/services",
+    "files": 136,
+    "lines": 54979
+  },
+  {
+    "name": "tools",
+    "dir": "src/tools",
+    "files": 184,
+    "lines": 51233
+  },
+  {
+    "name": "commands",
+    "dir": "src/commands",
+    "files": 209,
+    "lines": 27301
+  },
+  {
+    "name": "server",
+    "dir": "src/server",
+    "files": 87,
+    "lines": 21934
+  },
+  {
+    "name": "hooks",
+    "dir": "src/hooks",
+    "files": 104,
+    "lines": 19412
+  },
+  {
+    "name": "tasks",
+    "dir": "src/tasks",
+    "files": 12,
+    "lines": 3310
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "path": "src/cli/print.ts",
+    "lines": 5597
+  },
+  {
+    "path": "src/utils/messages.ts",
+    "lines": 5514
+  },
+  {
+    "path": "src/utils/sessionStorage.ts",
+    "lines": 5107
+  },
+  {
+    "path": "src/utils/hooks.ts",
+    "lines": 5024
+  },
+  {
+    "path": "src/screens/REPL.tsx",
+    "lines": 5007
+  },
+  {
+    "path": "src/main.tsx",
+    "lines": 4685
+  },
+  {
+    "path": "src/utils/bash/bashParser.ts",
+    "lines": 4438
+  },
+  {
+    "path": "src/utils/attachments.ts",
+    "lines": 3999
+  },
+  {
+    "path": "src/services/api/claude.ts",
+    "lines": 3421
+  },
+  {
+    "path": "src/services/mcp/client.ts",
+    "lines": 3350
+  },
+  {
+    "path": "src/utils/plugins/pluginLoader.ts",
+    "lines": 3304
+  },
+  {
+    "path": "src/commands/insights.ts",
+    "lines": 3203
+  },
+  {
+    "path": "src/bridge/bridgeMain.ts",
+    "lines": 3002
+  },
+  {
+    "path": "src/utils/bash/ast.ts",
+    "lines": 2681
+  },
+  {
+    "path": "src/utils/plugins/marketplaceManager.ts",
+    "lines": 2645
+  },
+  {
+    "path": "src/tools/BashTool/bashPermissions.ts",
+    "lines": 2623
+  },
+  {
+    "path": "src/tools/BashTool/bashSecurity.ts",
+    "lines": 2594
+  },
+  {
+    "path": "src/native-ts/yoga-layout/index.ts",
+    "lines": 2580
+  },
+  {
+    "path": "src/services/mcp/auth.ts",
+    "lines": 2467
+  },
+  {
+    "path": "src/bridge/replBridge.ts",
+    "lines": 2409
+  },
+  {
+    "path": "src/components/PromptInput/PromptInput.tsx",
+    "lines": 2340
+  },
+  {
+    "path": "src/commands/plugin/ManagePlugins.tsx",
+    "lines": 2217
+  },
+  {
+    "path": "src/tools/PowerShellTool/pathValidation.ts",
+    "lines": 2051
+  },
+  {
+    "path": "src/utils/auth.ts",
+    "lines": 2004
+  },
+  {
+    "path": "src/tools/BashTool/readOnlyValidation.ts",
+    "lines": 1992
+  },
+  {
+    "path": "src/utils/shell/readOnlyCommandValidation.ts",
+    "lines": 1895
+  },
+  {
+    "path": "src/entrypoints/sdk/coreSchemas.ts",
+    "lines": 1891
+  },
+  {
+    "path": "src/tools/PowerShellTool/readOnlyValidation.ts",
+    "lines": 1825
+  },
+  {
+    "path": "src/components/Settings/Config.tsx",
+    "lines": 1823
+  },
+  {
+    "path": "src/utils/config.ts",
+    "lines": 1819
+  }
+]

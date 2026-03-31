@@ -1,0 +1,37 @@
+[
+  {
+    "root": "src",
+    "files": 2015,
+    "lines": 541016
+  },
+  {
+    "root": "web",
+    "files": 342,
+    "lines": 57137
+  },
+  {
+    "root": "mcp-server",
+    "files": 11,
+    "lines": 3835
+  },
+  {
+    "root": "docs",
+    "files": 12,
+    "lines": 1931
+  },
+  {
+    "root": "scripts",
+    "files": 17,
+    "lines": 1800
+  },
+  {
+    "root": "helm",
+    "files": 11,
+    "lines": 486
+  },
+  {
+    "root": "tests",
+    "files": 9,
+    "lines": 443
+  }
+]

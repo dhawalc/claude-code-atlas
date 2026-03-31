@@ -1,0 +1,636 @@
+{
+  "generatedAt": "2026-03-31T19:25:11.328Z",
+  "thesis": "Claude Code is best framed as a terminal-native agent runtime, not only a CLI.",
+  "metrics": {
+    "trackedRoots": 7,
+    "totalTrackedFiles": 2417,
+    "totalTrackedLines": 606648,
+    "commandDirs": 87,
+    "toolDirs": 42,
+    "componentDirs": 31,
+    "hookFiles": 104,
+    "webApiRoutes": 27,
+    "buildFlags": 90,
+    "todoMarkers": 113
+  },
+  "highlights": {
+    "largestSourceFile": {
+      "path": "src/cli/print.ts",
+      "lines": 5597
+    },
+    "topBuildFlags": [
+      {
+        "flag": "KAIROS",
+        "count": 156,
+        "files": [
+          {
+            "file": "src/main.tsx",
+            "count": 24
+          },
+          {
+            "file": "src/bridge/bridgeMain.ts",
+            "count": 12
+          },
+          {
+            "file": "src/screens/REPL.tsx",
+            "count": 11
+          },
+          {
+            "file": "src/cli/print.ts",
+            "count": 8
+          },
+          {
+            "file": "src/constants/prompts.ts",
+            "count": 8
+          },
+          {
+            "file": "src/components/messages/UserPromptMessage.tsx",
+            "count": 4
+          },
+          {
+            "file": "src/hooks/useGlobalKeybindings.tsx",
+            "count": 4
+          },
+          {
+            "file": "src/tools/ToolSearchTool/prompt.ts",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "flag": "TRANSCRIPT_CLASSIFIER",
+        "count": 110,
+        "files": [
+          {
+            "file": "src/utils/permissions/permissionSetup.ts",
+            "count": 12
+          },
+          {
+            "file": "src/components/permissions/ExitPlanModePermissionRequest/ExitPlanModePermissionRequest.tsx",
+            "count": 9
+          },
+          {
+            "file": "src/main.tsx",
+            "count": 7
+          },
+          {
+            "file": "src/components/PromptInput/PromptInput.tsx",
+            "count": 6
+          },
+          {
+            "file": "src/components/Settings/Config.tsx",
+            "count": 5
+          },
+          {
+            "file": "src/utils/permissions/permissions.ts",
+            "count": 5
+          },
+          {
+            "file": "src/tools/ExitPlanModeTool/ExitPlanModeV2Tool.ts",
+            "count": 4
+          },
+          {
+            "file": "src/utils/classifierApprovals.ts",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "flag": "TEAMMEM",
+        "count": 53,
+        "files": [
+          {
+            "file": "src/utils/collapseReadSearch.ts",
+            "count": 11
+          },
+          {
+            "file": "src/services/extractMemories/extractMemories.ts",
+            "count": 5
+          },
+          {
+            "file": "src/utils/claudemd.ts",
+            "count": 5
+          },
+          {
+            "file": "src/utils/memoryFileDetection.ts",
+            "count": 4
+          },
+          {
+            "file": "src/utils/sessionFileAccessHooks.ts",
+            "count": 4
+          },
+          {
+            "file": "src/components/messages/CollapsedReadSearchContent.tsx",
+            "count": 3
+          },
+          {
+            "file": "src/memdir/memdir.ts",
+            "count": 3
+          },
+          {
+            "file": "src/services/teamMemorySync/watcher.ts",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "flag": "BASH_CLASSIFIER",
+        "count": 49,
+        "files": [
+          {
+            "file": "src/tools/BashTool/bashPermissions.ts",
+            "count": 13
+          },
+          {
+            "file": "src/components/permissions/BashPermissionRequest/BashPermissionRequest.tsx",
+            "count": 9
+          },
+          {
+            "file": "src/hooks/useCanUseTool.tsx",
+            "count": 4
+          },
+          {
+            "file": "src/utils/classifierApprovals.ts",
+            "count": 4
+          },
+          {
+            "file": "src/hooks/toolPermission/handlers/interactiveHandler.ts",
+            "count": 3
+          },
+          {
+            "file": "src/hooks/toolPermission/permissionLogging.ts",
+            "count": 2
+          },
+          {
+            "file": "src/cli/structuredIO.ts",
+            "count": 1
+          },
+          {
+            "file": "src/components/messages/UserToolResultMessage/UserToolSuccessMessage.tsx",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "flag": "VOICE_MODE",
+        "count": 49,
+        "files": [
+          {
+            "file": "src/hooks/useVoiceIntegration.tsx",
+            "count": 10
+          },
+          {
+            "file": "src/components/PromptInput/PromptInputFooterLeftSide.tsx",
+            "count": 9
+          },
+          {
+            "file": "src/components/PromptInput/Notifications.tsx",
+            "count": 6
+          },
+          {
+            "file": "src/screens/REPL.tsx",
+            "count": 6
+          },
+          {
+            "file": "src/tools/ConfigTool/ConfigTool.ts",
+            "count": 4
+          },
+          {
+            "file": "src/components/TextInput.tsx",
+            "count": 3
+          },
+          {
+            "file": "src/components/PromptInput/VoiceIndicator.tsx",
+            "count": 2
+          },
+          {
+            "file": "src/commands.ts",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "flag": "KAIROS_BRIEF",
+        "count": 39,
+        "files": [
+          {
+            "file": "src/main.tsx",
+            "count": 6
+          },
+          {
+            "file": "src/components/messages/UserPromptMessage.tsx",
+            "count": 4
+          },
+          {
+            "file": "src/constants/prompts.ts",
+            "count": 4
+          },
+          {
+            "file": "src/hooks/useGlobalKeybindings.tsx",
+            "count": 4
+          },
+          {
+            "file": "src/components/Spinner.tsx",
+            "count": 2
+          },
+          {
+            "file": "src/tools/BriefTool/BriefTool.ts",
+            "count": 2
+          },
+          {
+            "file": "src/tools/ToolSearchTool/prompt.ts",
+            "count": 2
+          },
+          {
+            "file": "src/utils/conversationRecovery.ts",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "flag": "PROACTIVE",
+        "count": 37,
+        "files": [
+          {
+            "file": "src/screens/REPL.tsx",
+            "count": 9
+          },
+          {
+            "file": "src/cli/print.ts",
+            "count": 5
+          },
+          {
+            "file": "src/constants/prompts.ts",
+            "count": 4
+          },
+          {
+            "file": "src/main.tsx",
+            "count": 3
+          },
+          {
+            "file": "src/utils/sessionStorage.ts",
+            "count": 3
+          },
+          {
+            "file": "src/components/PromptInput/PromptInputFooterLeftSide.tsx",
+            "count": 2
+          },
+          {
+            "file": "src/services/compact/prompt.ts",
+            "count": 2
+          },
+          {
+            "file": "src/utils/systemPrompt.ts",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "flag": "COORDINATOR_MODE",
+        "count": 32,
+        "files": [
+          {
+            "file": "src/cli/print.ts",
+            "count": 5
+          },
+          {
+            "file": "src/main.tsx",
+            "count": 4
+          },
+          {
+            "file": "src/screens/REPL.tsx",
+            "count": 3
+          },
+          {
+            "file": "src/tools.ts",
+            "count": 3
+          },
+          {
+            "file": "src/utils/sessionRestore.ts",
+            "count": 3
+          },
+          {
+            "file": "src/components/PromptInput/PromptInputFooterLeftSide.tsx",
+            "count": 2
+          },
+          {
+            "file": "src/screens/ResumeConversation.tsx",
+            "count": 2
+          },
+          {
+            "file": "src/tools/AgentTool/AgentTool.tsx",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "flag": "BRIDGE_MODE",
+        "count": 30,
+        "files": [
+          {
+            "file": "src/bridge/bridgeEnabled.ts",
+            "count": 7
+          },
+          {
+            "file": "src/hooks/useReplBridge.tsx",
+            "count": 7
+          },
+          {
+            "file": "src/main.tsx",
+            "count": 3
+          },
+          {
+            "file": "src/commands.ts",
+            "count": 2
+          },
+          {
+            "file": "src/tools/BriefTool/attachments.ts",
+            "count": 2
+          },
+          {
+            "file": "src/bridge/stub.ts",
+            "count": 1
+          },
+          {
+            "file": "src/commands/bridge/index.ts",
+            "count": 1
+          },
+          {
+            "file": "src/components/PromptInput/PromptInputFooter.tsx",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "flag": "CONTEXT_COLLAPSE",
+        "count": 23,
+        "files": [
+          {
+            "file": "src/query.ts",
+            "count": 6
+          },
+          {
+            "file": "src/components/TokenWarning.tsx",
+            "count": 3
+          },
+          {
+            "file": "src/commands/context/context-noninteractive.ts",
+            "count": 2
+          },
+          {
+            "file": "src/services/compact/autoCompact.ts",
+            "count": 2
+          },
+          {
+            "file": "src/utils/sessionRestore.ts",
+            "count": 2
+          },
+          {
+            "file": "src/commands/context/context.tsx",
+            "count": 1
+          },
+          {
+            "file": "src/components/ContextVisualization.tsx",
+            "count": 1
+          },
+          {
+            "file": "src/screens/REPL.tsx",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "topTodoHotspots": [
+      {
+        "path": "src/utils/attachments.ts",
+        "total": 4,
+        "tags": {
+          "TODO": 4,
+          "FIXME": 0,
+          "HACK": 0
+        },
+        "samples": [
+          {
+            "line": 741,
+            "text": "* TODO: Generate attachments when we create messages"
+          },
+          {
+            "line": 764,
+            "text": "// TODO: Compute attachments as the user types, not here (though we use this"
+          },
+          {
+            "line": 2075,
+            "text": "// TODO: Implement offset/limit support for changed files"
+          }
+        ]
+      },
+      {
+        "path": "src/utils/hooks.ts",
+        "total": 4,
+        "tags": {
+          "TODO": 4,
+          "FIXME": 0,
+          "HACK": 0
+        },
+        "samples": [
+          {
+            "line": 1193,
+            "text": "// TODO: Add tests for EPIPE handling."
+          },
+          {
+            "line": 3152,
+            "text": "// TODO: Implement prompt stop hooks outside REPL"
+          },
+          {
+            "line": 3162,
+            "text": "// TODO: Implement agent stop hooks outside REPL"
+          }
+        ]
+      },
+      {
+        "path": "src/utils/plugins/schemas.ts",
+        "total": 4,
+        "tags": {
+          "TODO": 4,
+          "FIXME": 0,
+          "HACK": 0
+        },
+        "samples": [
+          {
+            "line": 432,
+            "text": "// TODO (future work): allow globs?"
+          },
+          {
+            "line": 463,
+            "text": "// TODO (future work): allow globs?"
+          },
+          {
+            "line": 1158,
+            "text": "// TODO (future work) gist"
+          }
+        ]
+      },
+      {
+        "path": "src/cli/print.ts",
+        "total": 3,
+        "tags": {
+          "TODO": 3,
+          "FIXME": 0,
+          "HACK": 0
+        },
+        "samples": [
+          {
+            "line": 1144,
+            "text": "// TODO: Clean up this code to avoid passing around a mutable array."
+          },
+          {
+            "line": 1876,
+            "text": "// TODO(custom-tool-refactor): Should move to the init message, like browser"
+          },
+          {
+            "line": 2919,
+            "text": "const m = message.request // for typescript (TODO: use readonly types to avoid this)"
+          }
+        ]
+      },
+      {
+        "path": "src/entrypoints/mcp.ts",
+        "total": 3,
+        "tags": {
+          "TODO": 3,
+          "FIXME": 0,
+          "HACK": 0
+        },
+        "samples": [
+          {
+            "line": 62,
+            "text": "// TODO: Also re-expose any MCP tools"
+          },
+          {
+            "line": 103,
+            "text": "// TODO: Also re-expose any MCP tools"
+          },
+          {
+            "line": 136,
+            "text": "// TODO: validate input types with zod"
+          }
+        ]
+      },
+      {
+        "path": "src/hooks/useDiffInIDE.ts",
+        "total": 3,
+        "tags": {
+          "TODO": 3,
+          "FIXME": 0,
+          "HACK": 0
+        },
+        "samples": [
+          {
+            "line": 212,
+            "text": "* TODO: Time out after 5 mins of inactivity?"
+          },
+          {
+            "line": 213,
+            "text": "* TODO: Update auto-approval UI when IDE exits"
+          },
+          {
+            "line": 214,
+            "text": "* TODO: Close the IDE tab when the approval prompt is unmounted"
+          }
+        ]
+      },
+      {
+        "path": "src/screens/REPL.tsx",
+        "total": 3,
+        "tags": {
+          "TODO": 3,
+          "FIXME": 0,
+          "HACK": 0
+        },
+        "samples": [
+          {
+            "line": 3108,
+            "text": "// TODO: Simplify by always routing through onSubmit once it supports"
+          },
+          {
+            "line": 3125,
+            "text": "// TODO: Once onSubmit supports ContentBlockParam arrays, remove this branch"
+          },
+          {
+            "line": 4114,
+            "text": "// TODO: fix this"
+          }
+        ]
+      },
+      {
+        "path": "src/services/api/withRetry.ts",
+        "total": 3,
+        "tags": {
+          "TODO": 3,
+          "FIXME": 0,
+          "HACK": 0
+        },
+        "samples": [
+          {
+            "line": 94,
+            "text": "// TODO(ANT-344): the keep-alive via SystemAPIErrorMessage yields is a stopgap"
+          },
+          {
+            "line": 330,
+            "text": "// TODO: Revisit if the isNonCustomOpusModel check should still exist, or if isNonCustomOpusModel is a stale artifact of when Claude Code was hardcoded on Opus."
+          },
+          {
+            "line": 597,
+            "text": "// TODO: Replace with a response header check once the API adds a dedicated"
+          }
+        ]
+      },
+      {
+        "path": "src/services/mcp/xaa.ts",
+        "total": 3,
+        "tags": {
+          "TODO": 3,
+          "FIXME": 0,
+          "HACK": 0
+        },
+        "samples": [
+          {
+            "line": 133,
+            "text": "* validation (mix-up protection — TODO: upstream to SDK)."
+          },
+          {
+            "line": 176,
+            "text": "* §3.3 issuer-mismatch validation (mix-up protection — TODO: upstream to SDK)."
+          },
+          {
+            "line": 229,
+            "text": "* TODO(xaa-ga): consult `token_endpoint_auth_methods_supported` from IdP"
+          }
+        ]
+      },
+      {
+        "path": "src/utils/config.ts",
+        "total": 3,
+        "tags": {
+          "TODO": 3,
+          "FIXME": 0,
+          "HACK": 0
+        },
+        "samples": [
+          {
+            "line": 176,
+            "text": "// TODO: 'emacs' is kept for backward compatibility - remove after a few releases"
+          },
+          {
+            "line": 224,
+            "text": "primaryApiKey?: string // Primary API key for the user when no environment variable is set, set via oauth (TODO: rename)"
+          },
+          {
+            "line": 1616,
+            "text": "// TODO: Fix upstream"
+          }
+        ]
+      }
+    ]
+  }
+}

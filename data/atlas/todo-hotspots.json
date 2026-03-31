@@ -1,0 +1,864 @@
+[
+  {
+    "path": "src/utils/attachments.ts",
+    "total": 4,
+    "tags": {
+      "TODO": 4,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 741,
+        "text": "* TODO: Generate attachments when we create messages"
+      },
+      {
+        "line": 764,
+        "text": "// TODO: Compute attachments as the user types, not here (though we use this"
+      },
+      {
+        "line": 2075,
+        "text": "// TODO: Implement offset/limit support for changed files"
+      }
+    ]
+  },
+  {
+    "path": "src/utils/hooks.ts",
+    "total": 4,
+    "tags": {
+      "TODO": 4,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 1193,
+        "text": "// TODO: Add tests for EPIPE handling."
+      },
+      {
+        "line": 3152,
+        "text": "// TODO: Implement prompt stop hooks outside REPL"
+      },
+      {
+        "line": 3162,
+        "text": "// TODO: Implement agent stop hooks outside REPL"
+      }
+    ]
+  },
+  {
+    "path": "src/utils/plugins/schemas.ts",
+    "total": 4,
+    "tags": {
+      "TODO": 4,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 432,
+        "text": "// TODO (future work): allow globs?"
+      },
+      {
+        "line": 463,
+        "text": "// TODO (future work): allow globs?"
+      },
+      {
+        "line": 1158,
+        "text": "// TODO (future work) gist"
+      }
+    ]
+  },
+  {
+    "path": "src/cli/print.ts",
+    "total": 3,
+    "tags": {
+      "TODO": 3,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 1144,
+        "text": "// TODO: Clean up this code to avoid passing around a mutable array."
+      },
+      {
+        "line": 1876,
+        "text": "// TODO(custom-tool-refactor): Should move to the init message, like browser"
+      },
+      {
+        "line": 2919,
+        "text": "const m = message.request // for typescript (TODO: use readonly types to avoid this)"
+      }
+    ]
+  },
+  {
+    "path": "src/entrypoints/mcp.ts",
+    "total": 3,
+    "tags": {
+      "TODO": 3,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 62,
+        "text": "// TODO: Also re-expose any MCP tools"
+      },
+      {
+        "line": 103,
+        "text": "// TODO: Also re-expose any MCP tools"
+      },
+      {
+        "line": 136,
+        "text": "// TODO: validate input types with zod"
+      }
+    ]
+  },
+  {
+    "path": "src/hooks/useDiffInIDE.ts",
+    "total": 3,
+    "tags": {
+      "TODO": 3,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 212,
+        "text": "* TODO: Time out after 5 mins of inactivity?"
+      },
+      {
+        "line": 213,
+        "text": "* TODO: Update auto-approval UI when IDE exits"
+      },
+      {
+        "line": 214,
+        "text": "* TODO: Close the IDE tab when the approval prompt is unmounted"
+      }
+    ]
+  },
+  {
+    "path": "src/screens/REPL.tsx",
+    "total": 3,
+    "tags": {
+      "TODO": 3,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 3108,
+        "text": "// TODO: Simplify by always routing through onSubmit once it supports"
+      },
+      {
+        "line": 3125,
+        "text": "// TODO: Once onSubmit supports ContentBlockParam arrays, remove this branch"
+      },
+      {
+        "line": 4114,
+        "text": "// TODO: fix this"
+      }
+    ]
+  },
+  {
+    "path": "src/services/api/withRetry.ts",
+    "total": 3,
+    "tags": {
+      "TODO": 3,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 94,
+        "text": "// TODO(ANT-344): the keep-alive via SystemAPIErrorMessage yields is a stopgap"
+      },
+      {
+        "line": 330,
+        "text": "// TODO: Revisit if the isNonCustomOpusModel check should still exist, or if isNonCustomOpusModel is a stale artifact of when Claude Code was hardcoded on Opus."
+      },
+      {
+        "line": 597,
+        "text": "// TODO: Replace with a response header check once the API adds a dedicated"
+      }
+    ]
+  },
+  {
+    "path": "src/services/mcp/xaa.ts",
+    "total": 3,
+    "tags": {
+      "TODO": 3,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 133,
+        "text": "* validation (mix-up protection — TODO: upstream to SDK)."
+      },
+      {
+        "line": 176,
+        "text": "* §3.3 issuer-mismatch validation (mix-up protection — TODO: upstream to SDK)."
+      },
+      {
+        "line": 229,
+        "text": "* TODO(xaa-ga): consult `token_endpoint_auth_methods_supported` from IdP"
+      }
+    ]
+  },
+  {
+    "path": "src/utils/config.ts",
+    "total": 3,
+    "tags": {
+      "TODO": 3,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 176,
+        "text": "// TODO: 'emacs' is kept for backward compatibility - remove after a few releases"
+      },
+      {
+        "line": 224,
+        "text": "primaryApiKey?: string // Primary API key for the user when no environment variable is set, set via oauth (TODO: rename)"
+      },
+      {
+        "line": 1616,
+        "text": "// TODO: Fix upstream"
+      }
+    ]
+  },
+  {
+    "path": "src/commands/ultraplan.tsx",
+    "total": 2,
+    "tags": {
+      "TODO": 2,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 20,
+        "text": "// TODO(prod-hardening): OAuth token may go stale over the 30min poll;"
+      },
+      {
+        "line": 364,
+        "text": "// TODO(#23985): replace registerRemoteAgentTask + startDetachedPoll with"
+      }
+    ]
+  },
+  {
+    "path": "src/components/Settings/Config.tsx",
+    "total": 2,
+    "tags": {
+      "TODO": 2,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 263,
+        "text": "// TODO: Add MCP servers"
+      },
+      {
+        "line": 1094,
+        "text": "// TODO: Make these proper messages"
+      }
+    ]
+  },
+  {
+    "path": "src/hooks/useVoiceIntegration.tsx",
+    "total": 2,
+    "tags": {
+      "TODO": 2,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 652,
+        "text": "// TODO(onKeyDown-migration): remove once REPL passes handleKeyDown."
+      },
+      {
+        "line": 670,
+        "text": "// TODO(onKeyDown-migration): temporary shim so existing JSX callers"
+      }
+    ]
+  },
+  {
+    "path": "src/ink/events/input-event.ts",
+    "total": 2,
+    "tags": {
+      "TODO": 2,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 50,
+        "text": "// TODO(vadimdemedes): consider removing this in the next major version."
+      },
+      {
+        "line": 95,
+        "text": "// TODO(vadimdemedes): remove this in the next major version."
+      }
+    ]
+  },
+  {
+    "path": "src/services/analytics/growthbook.ts",
+    "total": 2,
+    "tags": {
+      "TODO": 2,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 332,
+        "text": "// TODO: Remove this once the API is fixed to return correct format"
+      },
+      {
+        "line": 385,
+        "text": "// lands in `value` (current API) or `defaultValue` (post-TODO API shape),"
+      }
+    ]
+  },
+  {
+    "path": "src/services/mcp/client.ts",
+    "total": 2,
+    "tags": {
+      "TODO": 2,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 589,
+        "text": "* TODO (ollie): The memoization here increases complexity by a lot, and im not sure it really improves performance"
+      },
+      {
+        "line": 681,
+        "text": "// TODO: Use the auth token provided in the lockfile"
+      }
+    ]
+  },
+  {
+    "path": "src/utils/auth.ts",
+    "total": 2,
+    "tags": {
+      "TODO": 2,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 1054,
+        "text": "// TODO: migrate to SecureStorage"
+      },
+      {
+        "line": 1106,
+        "text": "// TODO: migrate to SecureStorage"
+      }
+    ]
+  },
+  {
+    "path": "src/utils/processUserInput/processUserInput.ts",
+    "total": 2,
+    "tags": {
+      "TODO": 2,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 200,
+        "text": "// TODO: Make this an attachment message"
+      },
+      {
+        "line": 242,
+        "text": "// TODO: Clean this up"
+      }
+    ]
+  },
+  {
+    "path": "src/commands/mcp/mcp.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 10,
+        "text": "// TODO: This is a hack to get the context value from toggleMcpServer (useContext only works in a component)"
+      }
+    ]
+  },
+  {
+    "path": "src/commands/mcp/xaaIdpCommand.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 162,
+        "text": "// TODO(paulc): read the JWT from stdin instead of argv to keep it out of"
+      }
+    ]
+  },
+  {
+    "path": "src/commands/plugin/BrowseMarketplace.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 682,
+        "text": "// TODO: Actually scan local plugin directories to show real components"
+      }
+    ]
+  },
+  {
+    "path": "src/commands/review/reviewRemote.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 7,
+        "text": "* TODO(#22051): pass useBundleMode once landed so local-only / uncommitted"
+      }
+    ]
+  },
+  {
+    "path": "src/components/Message.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 35,
+        "text": "// TODO: Find a way to remove this, and leave spacing to the consumer"
+      }
+    ]
+  },
+  {
+    "path": "src/components/permissions/ExitPlanModePermissionRequest/ExitPlanModePermissionRequest.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 188,
+        "text": "// TODO: Delete the branch after moving to V2"
+      }
+    ]
+  },
+  {
+    "path": "src/components/permissions/PermissionRequest.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 145,
+        "text": "// TODO: Move this to Tool.renderPermissionRequest"
+      }
+    ]
+  },
+  {
+    "path": "src/components/ResumeTask.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 168,
+        "text": "// TODO: include branch name when API returns it"
+      }
+    ]
+  },
+  {
+    "path": "src/components/ScrollKeybindingHandler.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 568,
+        "text": "// TODO(search): `/`, n/N — build on Richard Kim's d94b07add4 (branch"
+      }
+    ]
+  },
+  {
+    "path": "src/components/Spinner.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 289,
+        "text": "// the terminal is very small. TODO: fix this in Ink."
+      }
+    ]
+  },
+  {
+    "path": "src/hooks/useBackgroundTaskNavigation.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 245,
+        "text": "// TODO(onKeyDown-migration): remove once REPL passes handleKeyDown."
+      }
+    ]
+  },
+  {
+    "path": "src/hooks/useHistorySearch.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 273,
+        "text": "// TODO(onKeyDown-migration): remove once PromptInput passes handleKeyDown."
+      }
+    ]
+  },
+  {
+    "path": "src/hooks/useReplBridge.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 310,
+        "text": "// TODO: avoid the cast"
+      }
+    ]
+  },
+  {
+    "path": "src/hooks/useSearchInput.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 355,
+        "text": "// TODO(onKeyDown-migration): remove once all consumers pass handleKeyDown."
+      }
+    ]
+  },
+  {
+    "path": "src/hooks/useTypeahead.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 1367,
+        "text": "// TODO(onKeyDown-migration): remove once PromptInput passes handleKeyDown."
+      }
+    ]
+  },
+  {
+    "path": "src/ink/render-to-screen.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 162,
+        "text": "// to a shared helper (TODO once both are stable). codeUnitToCell"
+      }
+    ]
+  },
+  {
+    "path": "src/ink/screen.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 688,
+        "text": "* TODO: When soft-wrapping is implemented, SpacerHead cells will be explicitly"
+      }
+    ]
+  },
+  {
+    "path": "src/keybindings/shortcutFormat.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 9,
+        "text": "// TODO(keybindings-migration): Remove fallback parameter after migration is"
+      }
+    ]
+  },
+  {
+    "path": "src/keybindings/useShortcutDisplay.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 9,
+        "text": "// TODO(keybindings-migration): Remove fallback parameter after migration is complete"
+      }
+    ]
+  },
+  {
+    "path": "src/main.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 2355,
+        "text": "// TODO: Consolidate other prefetches into a single bootstrap request."
+      }
+    ]
+  },
+  {
+    "path": "src/query.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 545,
+        "text": "//TODO: no need to set toolUseContext.messages during set-up since it is updated here"
+      }
+    ]
+  },
+  {
+    "path": "src/QueryEngine.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 545,
+        "text": ".mode as PermissionMode, // TODO: avoid the cast"
+      }
+    ]
+  },
+  {
+    "path": "src/services/api/claude.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 2085,
+        "text": "// TODO: handle citations"
+      }
+    ]
+  },
+  {
+    "path": "src/services/api/client.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 232,
+        "text": "// TODO: Cache either GoogleAuth instance or AuthClient to improve performance"
+      }
+    ]
+  },
+  {
+    "path": "src/services/api/errorUtils.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 126,
+        "text": "// TODO: figure out why"
+      }
+    ]
+  },
+  {
+    "path": "src/services/compact/compact.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 1690,
+        "text": "// TODO: Refactor to use isMemoryFilePath() from claudemd.ts for consistency"
+      }
+    ]
+  },
+  {
+    "path": "src/services/diagnosticTracking.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 56,
+        "text": "// TODO: Do not cache the connected mcpClient since it can change."
+      }
+    ]
+  },
+  {
+    "path": "src/services/lsp/LSPServerManager.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 374,
+        "text": "* TODO: Integrate with compact - call closeFile() when compact removes files from context"
+      }
+    ]
+  },
+  {
+    "path": "src/services/mcp/auth.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 1743,
+        "text": "* TODO(xaa-ga): add cross-process lockfile before GA. `_refreshInProgress`"
+      }
+    ]
+  },
+  {
+    "path": "src/services/mcp/MCPConnectionManager.tsx",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 37,
+        "text": "// TODO (ollie): We may be able to get rid of this context by putting these function on app state"
+      }
+    ]
+  },
+  {
+    "path": "src/services/mcp/useManageMCPConnections.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 342,
+        "text": "// TODO: This really isn't great: ideally we'd check appstate as the source of truth"
+      }
+    ]
+  },
+  {
+    "path": "src/services/mcp/utils.ts",
+    "total": 1,
+    "tags": {
+      "TODO": 1,
+      "FIXME": 0,
+      "HACK": 0
+    },
+    "samples": [
+      {
+        "line": 357,
+        "text": "// TODO: This fails an e2e test if the ?. is not present. This is likely a bug in the e2e test."
+      }
+    ]
+  }
+]

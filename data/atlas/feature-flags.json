@@ -1,0 +1,1790 @@
+[
+  {
+    "flag": "KAIROS",
+    "count": 156,
+    "files": [
+      {
+        "file": "src/main.tsx",
+        "count": 24
+      },
+      {
+        "file": "src/bridge/bridgeMain.ts",
+        "count": 12
+      },
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 11
+      },
+      {
+        "file": "src/cli/print.ts",
+        "count": 8
+      },
+      {
+        "file": "src/constants/prompts.ts",
+        "count": 8
+      },
+      {
+        "file": "src/components/messages/UserPromptMessage.tsx",
+        "count": 4
+      },
+      {
+        "file": "src/hooks/useGlobalKeybindings.tsx",
+        "count": 4
+      },
+      {
+        "file": "src/tools/ToolSearchTool/prompt.ts",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "flag": "TRANSCRIPT_CLASSIFIER",
+    "count": 110,
+    "files": [
+      {
+        "file": "src/utils/permissions/permissionSetup.ts",
+        "count": 12
+      },
+      {
+        "file": "src/components/permissions/ExitPlanModePermissionRequest/ExitPlanModePermissionRequest.tsx",
+        "count": 9
+      },
+      {
+        "file": "src/main.tsx",
+        "count": 7
+      },
+      {
+        "file": "src/components/PromptInput/PromptInput.tsx",
+        "count": 6
+      },
+      {
+        "file": "src/components/Settings/Config.tsx",
+        "count": 5
+      },
+      {
+        "file": "src/utils/permissions/permissions.ts",
+        "count": 5
+      },
+      {
+        "file": "src/tools/ExitPlanModeTool/ExitPlanModeV2Tool.ts",
+        "count": 4
+      },
+      {
+        "file": "src/utils/classifierApprovals.ts",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "flag": "TEAMMEM",
+    "count": 53,
+    "files": [
+      {
+        "file": "src/utils/collapseReadSearch.ts",
+        "count": 11
+      },
+      {
+        "file": "src/services/extractMemories/extractMemories.ts",
+        "count": 5
+      },
+      {
+        "file": "src/utils/claudemd.ts",
+        "count": 5
+      },
+      {
+        "file": "src/utils/memoryFileDetection.ts",
+        "count": 4
+      },
+      {
+        "file": "src/utils/sessionFileAccessHooks.ts",
+        "count": 4
+      },
+      {
+        "file": "src/components/messages/CollapsedReadSearchContent.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/memdir/memdir.ts",
+        "count": 3
+      },
+      {
+        "file": "src/services/teamMemorySync/watcher.ts",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "flag": "BASH_CLASSIFIER",
+    "count": 49,
+    "files": [
+      {
+        "file": "src/tools/BashTool/bashPermissions.ts",
+        "count": 13
+      },
+      {
+        "file": "src/components/permissions/BashPermissionRequest/BashPermissionRequest.tsx",
+        "count": 9
+      },
+      {
+        "file": "src/hooks/useCanUseTool.tsx",
+        "count": 4
+      },
+      {
+        "file": "src/utils/classifierApprovals.ts",
+        "count": 4
+      },
+      {
+        "file": "src/hooks/toolPermission/handlers/interactiveHandler.ts",
+        "count": 3
+      },
+      {
+        "file": "src/hooks/toolPermission/permissionLogging.ts",
+        "count": 2
+      },
+      {
+        "file": "src/cli/structuredIO.ts",
+        "count": 1
+      },
+      {
+        "file": "src/components/messages/UserToolResultMessage/UserToolSuccessMessage.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "VOICE_MODE",
+    "count": 49,
+    "files": [
+      {
+        "file": "src/hooks/useVoiceIntegration.tsx",
+        "count": 10
+      },
+      {
+        "file": "src/components/PromptInput/PromptInputFooterLeftSide.tsx",
+        "count": 9
+      },
+      {
+        "file": "src/components/PromptInput/Notifications.tsx",
+        "count": 6
+      },
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 6
+      },
+      {
+        "file": "src/tools/ConfigTool/ConfigTool.ts",
+        "count": 4
+      },
+      {
+        "file": "src/components/TextInput.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/components/PromptInput/VoiceIndicator.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "KAIROS_BRIEF",
+    "count": 39,
+    "files": [
+      {
+        "file": "src/main.tsx",
+        "count": 6
+      },
+      {
+        "file": "src/components/messages/UserPromptMessage.tsx",
+        "count": 4
+      },
+      {
+        "file": "src/constants/prompts.ts",
+        "count": 4
+      },
+      {
+        "file": "src/hooks/useGlobalKeybindings.tsx",
+        "count": 4
+      },
+      {
+        "file": "src/components/Spinner.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/tools/BriefTool/BriefTool.ts",
+        "count": 2
+      },
+      {
+        "file": "src/tools/ToolSearchTool/prompt.ts",
+        "count": 2
+      },
+      {
+        "file": "src/utils/conversationRecovery.ts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "PROACTIVE",
+    "count": 37,
+    "files": [
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 9
+      },
+      {
+        "file": "src/cli/print.ts",
+        "count": 5
+      },
+      {
+        "file": "src/constants/prompts.ts",
+        "count": 4
+      },
+      {
+        "file": "src/main.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/utils/sessionStorage.ts",
+        "count": 3
+      },
+      {
+        "file": "src/components/PromptInput/PromptInputFooterLeftSide.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/services/compact/prompt.ts",
+        "count": 2
+      },
+      {
+        "file": "src/utils/systemPrompt.ts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "COORDINATOR_MODE",
+    "count": 32,
+    "files": [
+      {
+        "file": "src/cli/print.ts",
+        "count": 5
+      },
+      {
+        "file": "src/main.tsx",
+        "count": 4
+      },
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 3
+      },
+      {
+        "file": "src/utils/sessionRestore.ts",
+        "count": 3
+      },
+      {
+        "file": "src/components/PromptInput/PromptInputFooterLeftSide.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/screens/ResumeConversation.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/tools/AgentTool/AgentTool.tsx",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "BRIDGE_MODE",
+    "count": 30,
+    "files": [
+      {
+        "file": "src/bridge/bridgeEnabled.ts",
+        "count": 7
+      },
+      {
+        "file": "src/hooks/useReplBridge.tsx",
+        "count": 7
+      },
+      {
+        "file": "src/main.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/commands.ts",
+        "count": 2
+      },
+      {
+        "file": "src/tools/BriefTool/attachments.ts",
+        "count": 2
+      },
+      {
+        "file": "src/bridge/stub.ts",
+        "count": 1
+      },
+      {
+        "file": "src/commands/bridge/index.ts",
+        "count": 1
+      },
+      {
+        "file": "src/components/PromptInput/PromptInputFooter.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "CONTEXT_COLLAPSE",
+    "count": 23,
+    "files": [
+      {
+        "file": "src/query.ts",
+        "count": 6
+      },
+      {
+        "file": "src/components/TokenWarning.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/commands/context/context-noninteractive.ts",
+        "count": 2
+      },
+      {
+        "file": "src/services/compact/autoCompact.ts",
+        "count": 2
+      },
+      {
+        "file": "src/utils/sessionRestore.ts",
+        "count": 2
+      },
+      {
+        "file": "src/commands/context/context.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/components/ContextVisualization.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "EXPERIMENTAL_SKILL_SEARCH",
+    "count": 21,
+    "files": [
+      {
+        "file": "src/tools/SkillTool/SkillTool.ts",
+        "count": 8
+      },
+      {
+        "file": "src/constants/prompts.ts",
+        "count": 3
+      },
+      {
+        "file": "src/utils/attachments.ts",
+        "count": 3
+      },
+      {
+        "file": "src/components/messages/AttachmentMessage.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      },
+      {
+        "file": "src/query.ts",
+        "count": 1
+      },
+      {
+        "file": "src/services/compact/compact.ts",
+        "count": 1
+      },
+      {
+        "file": "src/services/mcp/useManageMCPConnections.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "KAIROS_CHANNELS",
+    "count": 21,
+    "files": [
+      {
+        "file": "src/cli/print.ts",
+        "count": 3
+      },
+      {
+        "file": "src/services/mcp/useManageMCPConnections.ts",
+        "count": 3
+      },
+      {
+        "file": "src/main.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/services/mcp/channelNotification.ts",
+        "count": 2
+      },
+      {
+        "file": "src/components/LogoV2/ChannelsNotice.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/components/LogoV2/LogoV2.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/components/messages/UserTextMessage.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/hooks/toolPermission/handlers/interactiveHandler.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "BUDDY",
+    "count": 18,
+    "files": [
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 7
+      },
+      {
+        "file": "src/buddy/CompanionSprite.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/components/PromptInput/PromptInput.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/buddy/useBuddyNotification.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/buddy/prompt.ts",
+        "count": 1
+      },
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/attachments.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "UDS_INBOX",
+    "count": 18,
+    "files": [
+      {
+        "file": "src/tools/SendMessageTool/SendMessageTool.ts",
+        "count": 6
+      },
+      {
+        "file": "src/main.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/tools/SendMessageTool/prompt.ts",
+        "count": 2
+      },
+      {
+        "file": "src/cli/print.ts",
+        "count": 1
+      },
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      },
+      {
+        "file": "src/components/messages/UserTextMessage.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/setup.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "CHICAGO_MCP",
+    "count": 16,
+    "files": [
+      {
+        "file": "src/services/mcp/client.ts",
+        "count": 4
+      },
+      {
+        "file": "src/main.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/query.ts",
+        "count": 2
+      },
+      {
+        "file": "src/services/mcp/config.ts",
+        "count": 2
+      },
+      {
+        "file": "src/entrypoints/cli.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/query/stopHooks.ts",
+        "count": 1
+      },
+      {
+        "file": "src/services/analytics/metadata.ts",
+        "count": 1
+      },
+      {
+        "file": "src/state/AppStateStore.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "HISTORY_SNIP",
+    "count": 16,
+    "files": [
+      {
+        "file": "src/utils/messages.ts",
+        "count": 4
+      },
+      {
+        "file": "src/QueryEngine.ts",
+        "count": 3
+      },
+      {
+        "file": "src/query.ts",
+        "count": 2
+      },
+      {
+        "file": "src/utils/attachments.ts",
+        "count": 2
+      },
+      {
+        "file": "src/utils/collapseReadSearch.ts",
+        "count": 2
+      },
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      },
+      {
+        "file": "src/components/Message.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "MONITOR_TOOL",
+    "count": 13,
+    "files": [
+      {
+        "file": "src/components/permissions/PermissionRequest.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/components/tasks/BackgroundTasksDialog.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/tasks/LocalShellTask/LocalShellTask.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/tools/BashTool/prompt.ts",
+        "count": 2
+      },
+      {
+        "file": "src/tasks.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools/AgentTool/runAgent.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools/BashTool/BashTool.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "CACHED_MICROCOMPACT",
+    "count": 12,
+    "files": [
+      {
+        "file": "src/services/api/claude.ts",
+        "count": 5
+      },
+      {
+        "file": "src/constants/prompts.ts",
+        "count": 2
+      },
+      {
+        "file": "src/query.ts",
+        "count": 2
+      },
+      {
+        "file": "src/services/compact/microCompact.ts",
+        "count": 2
+      },
+      {
+        "file": "src/services/api/logging.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "COMMIT_ATTRIBUTION",
+    "count": 12,
+    "files": [
+      {
+        "file": "src/cli/print.ts",
+        "count": 3
+      },
+      {
+        "file": "src/utils/sessionRestore.ts",
+        "count": 2
+      },
+      {
+        "file": "src/commands/clear/caches.ts",
+        "count": 1
+      },
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/services/compact/postCompactCleanup.ts",
+        "count": 1
+      },
+      {
+        "file": "src/setup.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/attribution.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/shell/bashProvider.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "AGENT_TRIGGERS",
+    "count": 11,
+    "files": [
+      {
+        "file": "src/cli/print.ts",
+        "count": 4
+      },
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/tools/ScheduleCronTool/prompt.ts",
+        "count": 2
+      },
+      {
+        "file": "src/constants/tools.ts",
+        "count": 1
+      },
+      {
+        "file": "src/skills/bundled/index.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "BG_SESSIONS",
+    "count": 11,
+    "files": [
+      {
+        "file": "src/utils/concurrentSessions.ts",
+        "count": 3
+      },
+      {
+        "file": "src/query.ts",
+        "count": 2
+      },
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/commands/exit/exit.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/entrypoints/cli.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/main.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/utils/conversationRecovery.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "WORKFLOW_SCRIPTS",
+    "count": 11,
+    "files": [
+      {
+        "file": "src/commands.ts",
+        "count": 2
+      },
+      {
+        "file": "src/components/permissions/PermissionRequest.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/components/tasks/BackgroundTasksDialog.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/constants/tools.ts",
+        "count": 2
+      },
+      {
+        "file": "src/tasks.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/permissions/classifierDecision.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "SHOT_STATS",
+    "count": 10,
+    "files": [
+      {
+        "file": "src/utils/stats.ts",
+        "count": 5
+      },
+      {
+        "file": "src/utils/statsCache.ts",
+        "count": 3
+      },
+      {
+        "file": "src/components/Stats.tsx",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "ULTRAPLAN",
+    "count": 10,
+    "files": [
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 4
+      },
+      {
+        "file": "src/components/PromptInput/PromptInput.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      },
+      {
+        "file": "src/components/permissions/ExitPlanModePermissionRequest/ExitPlanModePermissionRequest.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/utils/processUserInput/processUserInput.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "MCP_SKILLS",
+    "count": 9,
+    "files": [
+      {
+        "file": "src/services/mcp/client.ts",
+        "count": 5
+      },
+      {
+        "file": "src/services/mcp/useManageMCPConnections.ts",
+        "count": 3
+      },
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "PROMPT_CACHE_BREAK_DETECTION",
+    "count": 9,
+    "files": [
+      {
+        "file": "src/services/api/claude.ts",
+        "count": 2
+      },
+      {
+        "file": "src/services/compact/compact.ts",
+        "count": 2
+      },
+      {
+        "file": "src/services/compact/microCompact.ts",
+        "count": 2
+      },
+      {
+        "file": "src/commands/compact/compact.ts",
+        "count": 1
+      },
+      {
+        "file": "src/services/compact/autoCompact.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools/AgentTool/runAgent.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "TOKEN_BUDGET",
+    "count": 9,
+    "files": [
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/query.ts",
+        "count": 2
+      },
+      {
+        "file": "src/components/PromptInput/PromptInput.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/components/Spinner.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/constants/prompts.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/attachments.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "CONNECTOR_TEXT",
+    "count": 8,
+    "files": [
+      {
+        "file": "src/services/api/claude.ts",
+        "count": 3
+      },
+      {
+        "file": "src/utils/messages.ts",
+        "count": 2
+      },
+      {
+        "file": "src/components/Message.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/constants/betas.ts",
+        "count": 1
+      },
+      {
+        "file": "src/services/api/logging.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "EXTRACT_MEMORIES",
+    "count": 7,
+    "files": [
+      {
+        "file": "src/cli/print.ts",
+        "count": 2
+      },
+      {
+        "file": "src/query/stopHooks.ts",
+        "count": 2
+      },
+      {
+        "file": "src/utils/backgroundHousekeeping.ts",
+        "count": 2
+      },
+      {
+        "file": "src/memdir/paths.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "LODESTONE",
+    "count": 6,
+    "files": [
+      {
+        "file": "src/main.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/utils/backgroundHousekeeping.ts",
+        "count": 2
+      },
+      {
+        "file": "src/interactiveHelpers.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/utils/settings/types.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "TEMPLATES",
+    "count": 6,
+    "files": [
+      {
+        "file": "src/query/stopHooks.ts",
+        "count": 2
+      },
+      {
+        "file": "src/entrypoints/cli.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/query.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/markdownConfigLoader.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/permissions/filesystem.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "DIRECT_CONNECT",
+    "count": 5,
+    "files": [
+      {
+        "file": "src/main.tsx",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "flag": "DOWNLOAD_USER_SETTINGS",
+    "count": 5,
+    "files": [
+      {
+        "file": "src/cli/print.ts",
+        "count": 3
+      },
+      {
+        "file": "src/commands/reload-plugins/reload-plugins.ts",
+        "count": 1
+      },
+      {
+        "file": "src/services/settingsSync/index.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "FORK_SUBAGENT",
+    "count": 5,
+    "files": [
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      },
+      {
+        "file": "src/commands/branch/index.ts",
+        "count": 1
+      },
+      {
+        "file": "src/components/messages/UserTextMessage.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/tools/AgentTool/forkSubagent.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools/ToolSearchTool/prompt.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "MESSAGE_ACTIONS",
+    "count": 5,
+    "files": [
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/keybindings/defaultBindings.ts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "QUICK_SEARCH",
+    "count": 5,
+    "files": [
+      {
+        "file": "src/components/PromptInput/PromptInput.tsx",
+        "count": 4
+      },
+      {
+        "file": "src/keybindings/defaultBindings.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "REACTIVE_COMPACT",
+    "count": 5,
+    "files": [
+      {
+        "file": "src/commands/compact/compact.ts",
+        "count": 1
+      },
+      {
+        "file": "src/components/TokenWarning.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/query.ts",
+        "count": 1
+      },
+      {
+        "file": "src/services/compact/autoCompact.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/analyzeContext.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "TERMINAL_PANEL",
+    "count": 5,
+    "files": [
+      {
+        "file": "src/components/PromptInput/PromptInputHelpMenu.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/hooks/useGlobalKeybindings.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/keybindings/defaultBindings.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/permissions/classifierDecision.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "TREE_SITTER_BASH_SHADOW",
+    "count": 5,
+    "files": [
+      {
+        "file": "src/tools/BashTool/bashPermissions.ts",
+        "count": 3
+      },
+      {
+        "file": "src/utils/bash/parser.ts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "CCR_MIRROR",
+    "count": 4,
+    "files": [
+      {
+        "file": "src/bridge/remoteBridgeCore.ts",
+        "count": 2
+      },
+      {
+        "file": "src/bridge/bridgeEnabled.ts",
+        "count": 1
+      },
+      {
+        "file": "src/main.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "HISTORY_PICKER",
+    "count": 4,
+    "files": [
+      {
+        "file": "src/components/PromptInput/PromptInput.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/hooks/useHistorySearch.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "KAIROS_GITHUB_WEBHOOKS",
+    "count": 4,
+    "files": [
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      },
+      {
+        "file": "src/components/messages/UserTextMessage.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/hooks/useReplBridge.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "KAIROS_PUSH_NOTIFICATION",
+    "count": 4,
+    "files": [
+      {
+        "file": "src/components/Settings/Config.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools/ConfigTool/supportedSettings.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "REVIEW_ARTIFACT",
+    "count": 4,
+    "files": [
+      {
+        "file": "src/components/permissions/PermissionRequest.tsx",
+        "count": 3
+      },
+      {
+        "file": "src/skills/bundled/index.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "SSH_REMOTE",
+    "count": 4,
+    "files": [
+      {
+        "file": "src/main.tsx",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "flag": "VERIFICATION_AGENT",
+    "count": 4,
+    "files": [
+      {
+        "file": "src/constants/prompts.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools/AgentTool/builtInAgents.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools/TaskUpdateTool/TaskUpdateTool.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools/TodoWriteTool/TodoWriteTool.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "WEB_BROWSER_TOOL",
+    "count": 4,
+    "files": [
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/main.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "AUTO_THEME",
+    "count": 3,
+    "files": [
+      {
+        "file": "src/components/design-system/ThemeProvider.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/components/ThemePicker.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/tools/ConfigTool/supportedSettings.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "CCR_AUTO_CONNECT",
+    "count": 3,
+    "files": [
+      {
+        "file": "src/utils/config.ts",
+        "count": 2
+      },
+      {
+        "file": "src/bridge/bridgeEnabled.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "DAEMON",
+    "count": 3,
+    "files": [
+      {
+        "file": "src/entrypoints/cli.tsx",
+        "count": 2
+      },
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "FILE_PERSISTENCE",
+    "count": 3,
+    "files": [
+      {
+        "file": "src/cli/print.ts",
+        "count": 2
+      },
+      {
+        "file": "src/utils/filePersistence/filePersistence.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "MCP_RICH_OUTPUT",
+    "count": 3,
+    "files": [
+      {
+        "file": "src/tools/MCPTool/UI.tsx",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "flag": "MEMORY_SHAPE_TELEMETRY",
+    "count": 3,
+    "files": [
+      {
+        "file": "src/utils/sessionFileAccessHooks.ts",
+        "count": 2
+      },
+      {
+        "file": "src/memdir/findRelevantMemories.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "TREE_SITTER_BASH",
+    "count": 3,
+    "files": [
+      {
+        "file": "src/utils/bash/parser.ts",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "flag": "AGENT_MEMORY_SNAPSHOT",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/main.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/tools/AgentTool/loadAgentsDir.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "AGENT_TRIGGERS_REMOTE",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/skills/bundled/index.ts",
+        "count": 1
+      },
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "ALLOW_TEST_VERSIONS",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/utils/nativeInstaller/download.ts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "AWAY_SUMMARY",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/hooks/useAwaySummary.ts",
+        "count": 1
+      },
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "BREAK_CACHE_COMMAND",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/context.ts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "COWORKER_TYPE_TELEMETRY",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/services/analytics/metadata.ts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "ENHANCED_TELEMETRY_BETA",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/utils/telemetry/sessionTracing.ts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "HARD_FAIL",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/main.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/utils/log.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "NATIVE_CLIPBOARD_IMAGE",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/utils/imagePaste.ts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "NEW_INIT",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/commands/init.ts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "flag": "OVERFLOW_TEST_TOOL",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/tools.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/permissions/classifierDecision.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "POWERSHELL_AUTO_MODE",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/utils/permissions/permissions.ts",
+        "count": 1
+      },
+      {
+        "file": "src/utils/permissions/yoloClassifier.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "UPLOAD_USER_SETTINGS",
+    "count": 2,
+    "files": [
+      {
+        "file": "src/main.tsx",
+        "count": 1
+      },
+      {
+        "file": "src/services/settingsSync/index.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "ABLATION_BASELINE",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/entrypoints/cli.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "ANTI_DISTILLATION_CC",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/services/api/claude.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "BUILDING_CLAUDE_APPS",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/skills/bundled/index.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "BUILTIN_EXPLORE_PLAN_AGENTS",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/tools/AgentTool/builtInAgents.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "BYOC_ENVIRONMENT_RUNNER",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/entrypoints/cli.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "CCR_REMOTE_SETUP",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "COMPACTION_REMINDERS",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/utils/attachments.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "DUMP_SYSTEM_PROMPT",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/entrypoints/cli.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "HOOK_PROMPTS",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/screens/REPL.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "IS_LIBC_GLIBC",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/utils/envDynamic.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "IS_LIBC_MUSL",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/utils/envDynamic.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "KAIROS_DREAM",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/skills/bundled/index.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "NATIVE_CLIENT_ATTESTATION",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/constants/system.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "PERFETTO_TRACING",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/utils/telemetry/perfettoTracing.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "RUN_SKILL_GENERATOR",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/skills/bundled/index.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "SELF_HOSTED_RUNNER",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/entrypoints/cli.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "SKILL_IMPROVEMENT",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/utils/hooks/skillImprovement.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "SKIP_DETECTION_WHEN_AUTOUPDATES_DISABLED",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/components/AutoUpdaterWrapper.tsx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "SLOW_OPERATION_LOGGING",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/utils/slowOperations.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "STREAMLINED_OUTPUT",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/cli/print.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "TORCH",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/commands.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "ULTRATHINK",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/utils/thinking.ts",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "flag": "UNATTENDED_RETRY",
+    "count": 1,
+    "files": [
+      {
+        "file": "src/services/api/withRetry.ts",
+        "count": 1
+      }
+    ]
+  }
+]
