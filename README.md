@@ -4,7 +4,10 @@ Public-facing Atlas app for exploring Claude Code as a terminal-native agent run
 
 ## Routes
 
-- `/` landing page and launch thesis
+- `/` cinematic landing page and war-room thesis
+- `/deep-cuts` hidden secrets, buried bets, and codebase gems
+- `/control-plane` the agent operating system hidden inside the CLI
+- `/futures` product archaeology and forked futures
 - `/xray` repository structure, hotspot, and scale analysis
 - `/safety` permission and execution-safety story
 - `/compare/claw-code` runtime artifact versus parity scaffold

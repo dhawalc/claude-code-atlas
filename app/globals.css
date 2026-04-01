@@ -1436,3 +1436,138 @@ a {
     transition-duration: 0.01ms !important;
   }
 }
+
+.note-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.note-chip,
+.signal-card,
+.source-link {
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.note-chip {
+  display: grid;
+  gap: 8px;
+  padding: 18px 20px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.note-chip span,
+.signal-value {
+  font-family: var(--font-mono), monospace;
+  color: rgba(245, 238, 223, 0.6);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.note-chip strong {
+  font-size: clamp(1.2rem, 2vw, 1.75rem);
+  line-height: 1.1;
+}
+
+.signal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.signal-card {
+  display: grid;
+  gap: 14px;
+  padding: 28px;
+  border-radius: 32px;
+  background:
+    linear-gradient(180deg, rgba(16, 22, 32, 0.92), rgba(9, 13, 20, 0.88));
+}
+
+.signal-card h2 {
+  margin: 0;
+  font-size: clamp(1.85rem, 3vw, 2.8rem);
+  line-height: 0.97;
+  letter-spacing: -0.05em;
+}
+
+.signal-card p {
+  margin: 0;
+}
+
+.signal-value {
+  color: rgba(255, 116, 67, 0.84);
+}
+
+.source-list {
+  display: grid;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.source-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.03);
+  transition:
+    transform 150ms ease,
+    border-color 150ms ease,
+    background 150ms ease;
+}
+
+.source-link strong {
+  font-size: 0.98rem;
+}
+
+.source-link span {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(245, 238, 223, 0.56);
+  white-space: nowrap;
+}
+
+.source-link:hover {
+  transform: translateY(-2px);
+  border-color: rgba(54, 199, 255, 0.24);
+  background: rgba(54, 199, 255, 0.05);
+}
+
+.compact-route-grid {
+  grid-template-columns: 1fr;
+  margin-top: 16px;
+}
+
+.compact-route-card {
+  min-height: 220px;
+}
+
+.atlas-inline-links {
+  margin-top: 16px;
+}
+
+.dense-facts-list {
+  padding-left: 0;
+}
+
+.dense-facts-list div {
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+@media (max-width: 1180px) {
+  .note-strip,
+  .signal-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,59 +1,81 @@
 import Link from "next/link";
 import { LandingScene } from "@/components/landing-scene";
 import {
+  featureFlags,
   featuredFlags,
   formatNumber,
-  largestSourceFiles,
   sourceRepoUrl,
   subsystemLoc,
   summary,
-  surfaceInventory,
 } from "@/lib/atlas";
 
+const kairosRefs = featureFlags.find((flag) => flag.flag === "KAIROS")?.count ?? 156;
+
 const launchRoutes = [
+  {
+    href: "/deep-cuts",
+    title: "Deep Cuts",
+    eyebrow: "Hidden Gems",
+    body: "The buried product bets, weird outliers, and non-obvious systems nobody notices on a first read.",
+    accent: "ember",
+  },
+  {
+    href: "/control-plane",
+    title: "Control Plane",
+    eyebrow: "Agent OS",
+    body: "How AgentTool, tasks, transcripts, worktrees, mailboxes, and remote sessions combine into a hidden operating system.",
+    accent: "cobalt",
+  },
+  {
+    href: "/futures",
+    title: "Forked Futures",
+    eyebrow: "Product Archaeology",
+    body: "Kairos, split browser futures, remote runners, and the platform shape buried in the feature flags.",
+    accent: "sand",
+  },
   {
     href: "/xray",
     title: "Codebase X-Ray",
     eyebrow: "Structure",
-    body: "See where the code mass actually sits, which files dominate, and why the repo reads like a platform instead of a utility.",
+    body: "See where the code mass actually sits and why the repo reads like a platform instead of a utility.",
     accent: "cobalt",
   },
   {
     href: "/safety",
     title: "Safety Engine",
     eyebrow: "Trust Boundaries",
-    body: "Follow the shell parser, classifier gates, approval logic, and sandbox layers that make autonomy defensible.",
+    body: "Follow the parser, permission rules, classifier branches, and sandbox layers that make autonomy defensible.",
     accent: "ember",
   },
   {
     href: "/compare/claw-code",
     title: "Claude Code vs claw-code",
     eyebrow: "Comparison",
-    body: "Contrast the full runtime artifact with the clean-room Python parity scaffold and explain why that distinction matters.",
+    body: "Contrast the full runtime artifact with the clean-room Python parity scaffold and why that distinction matters.",
     accent: "sand",
   },
 ];
 
 const shockMetrics = [
   {
+    label: "KAIROS Refs",
+    value: formatNumber(kairosRefs),
+    note: "ambient-agent footprint",
+  },
+  {
     label: "Tracked Lines",
     value: formatNumber(summary.metrics.totalTrackedLines),
     note: "public code mass",
   },
   {
+    label: "Product Families",
+    value: "8",
+    note: "hidden inside one repo",
+  },
+  {
     label: "Build Flags",
     value: formatNumber(summary.metrics.buildFlags),
     note: "roadmap fossils",
-  },
-  {
-    label: "Largest File",
-    value: formatNumber(largestSourceFiles[0]?.lines ?? 0),
-    note: largestSourceFiles[0]?.path ?? "n/a",
-  },
-  {
-    label: "TODO Markers",
-    value: formatNumber(summary.metrics.todoMarkers),
-    note: "visible unfinished edges",
   },
 ];
 
@@ -67,36 +89,36 @@ const tracePills = [
 ];
 
 const ribbonWords = [
+  "hidden gems and buried systems",
   "terminal-native agent runtime",
+  "product archaeology in source form",
   "tool-governed autonomy",
-  "permission-aware execution",
-  "browser and remote surfaces",
-  "agent swarms and worktrees",
+  "remote sessions and swarms",
 ];
 
 const revelationCards = [
   {
     eyebrow: "Not A Wrapper",
     title: "Chat is only the skin",
-    body: "The UI reads conversationally. The repo underneath is mostly tools, safety logic, execution layers, and stateful system plumbing.",
-    value: formatNumber(surfaceInventory.tools.count),
+    body: "The code underneath is mostly tools, state machinery, permissions, transport layers, and agent placement logic.",
+    value: formatNumber(summary.metrics.toolDirs),
     label: "tool directories",
     tone: "cobalt",
   },
   {
-    eyebrow: "Not Vibes",
-    title: "Autonomy gets engineered",
-    body: "Shell parsing, classifier gates, approval states, and sandbox adapters show up as real architectural mass rather than policy copy.",
-    value: formatNumber(summary.metrics.buildFlags),
-    label: "feature flags",
+    eyebrow: "Not One Product",
+    title: "The repo is leaking futures",
+    body: "Kairos, browser forks, remote runners, team infrastructure, and platform packaging all point to a much wider product horizon than a CLI implies.",
+    value: "8",
+    label: "product families",
     tone: "ember",
   },
   {
-    eyebrow: "Not Just One Surface",
-    title: "A session can leak into a system",
-    body: "Browser routes, remote sessions, PTY infrastructure, bridge mode, and swarm behavior make the runtime feel more like a platform than a command.",
-    value: formatNumber(summary.metrics.webApiRoutes),
-    label: "web API routes",
+    eyebrow: "Not Just Features",
+    title: "The flags read like archaeology",
+    body: "Feature density and split surfaces show where the runtime was heading, where it forked, and which experiments mattered enough to leave deep traces.",
+    value: formatNumber(summary.metrics.buildFlags),
+    label: "feature flags",
     tone: "sand",
   },
 ];
@@ -104,28 +126,28 @@ const revelationCards = [
 const runtimeSteps = [
   {
     step: "01",
-    title: "Ingress",
-    body: "A prompt enters through the CLI or another surface, then lands in query orchestration rather than a thin request wrapper.",
+    title: "Deep Cuts",
+    body: "Start with the hidden secrets, the dream agent, the x402 outlier, the buried product bets, and the weird capability clusters.",
   },
   {
     step: "02",
-    title: "Tool Routing",
-    body: "Capabilities are declared, selected, and executed as first-class runtime actions. The system is built around tool use, not around pretending text is enough.",
+    title: "Control Plane",
+    body: "See how one prompt expands into placement, tasks, sidecars, worktrees, teammates, and remote execution capsules.",
   },
   {
     step: "03",
-    title: "Permission Gates",
-    body: "Risky actions pass through parsing, classification, allow or deny logic, and escalation states before they touch the machine.",
+    title: "Forked Futures",
+    body: "Track the split browser story, Kairos, remote infrastructure, and the repo's drift toward a multi-surface agent runtime.",
   },
   {
     step: "04",
-    title: "Execution",
-    body: "Approved actions fan into shells, sandboxes, worktrees, servers, and other operating surfaces that make the agent materially effective.",
+    title: "Trust Stack",
+    body: "Ground the spectacle in the part that matters most: how autonomy is constrained and made inspectable.",
   },
   {
     step: "05",
-    title: "Continuity",
-    body: "Memory, tasks, sessions, and remote state accumulate, which is why the runtime starts behaving like an ongoing system instead of a turn-based toy.",
+    title: "Evidence",
+    body: "Every route is source-backed and traceable into the public repo rather than floating on marketing copy.",
   },
 ];
 
@@ -135,16 +157,17 @@ export default function HomePage() {
       <section className="spectacle-hero">
         <div className="hero-topline">
           <span>March 31, 2026 source dump</span>
-          <span>public atlas</span>
+          <span>war room drop 01</span>
+          <span>hidden gems edition</span>
           <span>evidence over hype</span>
         </div>
 
         <div className="hero-heading">
           <div className="hero-heading-copy">
             <h1>
-              Cut Open
+              Hidden
               <br />
-              The CLI.
+              In Plain Sight.
             </h1>
             <div className="hero-trace">
               {tracePills.map((pill) => (
@@ -157,16 +180,16 @@ export default function HomePage() {
 
           <div className="hero-subcopy">
             <p>
-              When the wrapper breaks, the runtime spills out: shell parsing,
-              permission gates, tool execution, browser surfaces, memory,
-              remote sessions, and agent swarms.
+              The repo is not hiding one architecture diagram. It is hiding buried
+              product bets, split futures, a control plane, a trust stack, a dream
+              agent, and a few capabilities that have no business being in a normal CLI.
             </p>
             <div className="hero-actions">
-              <Link className="button button-primary" href="/xray">
-                See The Internal X-Ray
+              <Link className="button button-primary" href="/deep-cuts">
+                Read The Deep Cuts
               </Link>
-              <Link className="button button-secondary" href="/safety">
-                Read The Safety Stack
+              <Link className="button button-secondary" href="/control-plane">
+                See The Control Plane
               </Link>
             </div>
             <div className="hero-caption">
@@ -203,10 +226,10 @@ export default function HomePage() {
       <section className="thesis-breaker">
         <div className="section-heading section-heading-breaker">
           <span className="eyebrow">The Reveal</span>
-          <h2>This stops reading like a CLI the moment you look at the internals.</h2>
+          <h2>The codebase looks ordinary only until you follow its buried seams.</h2>
           <p className="section-copy">
-            The page has to earn its drama. These are the three claims the codebase
-            can actually support in public, with source-backed routes right after.
+            This public Atlas now starts where the surprising material actually is:
+            hidden gems, product archaeology, and the control fabric under the CLI.
           </p>
         </div>
 
@@ -227,11 +250,11 @@ export default function HomePage() {
 
       <section className="runtime-path">
         <div className="runtime-path-copy">
-          <span className="eyebrow">One Turn, Many Systems</span>
-          <h2>A single prompt immediately fans out into governed software.</h2>
+          <span className="eyebrow">Atlas Sequence</span>
+          <h2>The story now escalates into the weird parts on purpose.</h2>
           <p className="section-copy">
-            What looks simple from the terminal is only simple because a surprising
-            amount of machinery absorbs the complexity underneath it.
+            Instead of easing into structure, the first-scroll path jumps straight into
+            the hidden material and only then cashes it out with evidence routes.
           </p>
         </div>
 
@@ -251,8 +274,8 @@ export default function HomePage() {
           <span className="eyebrow">Proof Surfaces</span>
           <h2>The next click cashes out the thesis</h2>
           <p className="section-copy">
-            Spectacle without evidence collapses fast. These routes are the public
-            proof points that make the homepage claims defensible.
+            These routes are ordered by surprise value first, then by structural proof.
+            Start with the hidden gems if you want the fastest path to the buried story.
           </p>
         </div>
         <div className="route-grid">
@@ -291,7 +314,7 @@ export default function HomePage() {
 
         <div className="showcase-panel showcase-panel-dark">
           <span className="eyebrow">Subsystem Gravity</span>
-          <h2>The code mass sits in utilities, UI surfaces, and services</h2>
+          <h2>The code mass still sits in utilities, UI surfaces, and services</h2>
           <div className="gravity-list">
             {subsystemLoc.slice(0, 6).map((item) => (
               <div className="gravity-row" key={item.name}>

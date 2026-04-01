@@ -74,6 +74,13 @@ type Summary = {
   };
 };
 
+export type SourceAnchor = {
+  label: string;
+  path?: string;
+  line?: number;
+  href?: string;
+};
+
 export const summary = summaryData as Summary;
 export const topLevelRoots = topLevelRootsData as RootStat[];
 export const subsystemLoc = subsystemLocData as SubsystemStat[];
@@ -86,7 +93,17 @@ export const featuredFlags = featureFlags.slice(0, 8);
 export const sourceRepoUrl = "https://github.com/nirholas/claude-code";
 
 export function sourceRepoFileUrl(path: string) {
-  return `${sourceRepoUrl}/blob/main/${path}`;
+  return sourceRepoUrl + "/blob/main/" + path;
+}
+
+export function sourceRepoLineUrl(path: string, line?: number) {
+  return sourceRepoFileUrl(path) + (line ? "#L" + line : "");
+}
+
+export function resolveSourceAnchorHref(anchor: SourceAnchor) {
+  if (anchor.href) return anchor.href;
+  if (anchor.path) return sourceRepoLineUrl(anchor.path, anchor.line);
+  return sourceRepoUrl;
 }
 
 export function formatNumber(value: number) {
