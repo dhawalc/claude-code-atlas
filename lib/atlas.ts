@@ -90,20 +90,25 @@ export const todoHotspots = todoHotspotsData as TodoHotspot[];
 export const surfaceInventory = surfaceInventoryData as SurfaceInventory;
 
 export const featuredFlags = featureFlags.slice(0, 8);
-export const sourceRepoUrl = "https://github.com/nirholas/claude-code";
+export const localSourceRepoPath = "/home/dhawal/CC CLI/claude-code";
+export const sourceRepoUrl = "/sources";
 
-export function sourceRepoFileUrl(path: string) {
-  return sourceRepoUrl + "/blob/main/" + path;
+export function sourceRepoFileUrl(_path: string) {
+  return sourceRepoUrl;
 }
 
-export function sourceRepoLineUrl(path: string, line?: number) {
-  return sourceRepoFileUrl(path) + (line ? "#L" + line : "");
+export function sourceRepoLineUrl(_path: string, _line?: number) {
+  return sourceRepoUrl;
 }
 
 export function resolveSourceAnchorHref(anchor: SourceAnchor) {
   if (anchor.href) return anchor.href;
-  if (anchor.path) return sourceRepoLineUrl(anchor.path, anchor.line);
   return sourceRepoUrl;
+}
+
+export function formatSourceAnchorPath(anchor: SourceAnchor) {
+  if (!anchor.path) return localSourceRepoPath;
+  return anchor.path + (anchor.line ? `#L${anchor.line}` : "");
 }
 
 export function formatNumber(value: number) {

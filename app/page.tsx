@@ -13,6 +13,20 @@ const kairosRefs = featureFlags.find((flag) => flag.flag === "KAIROS")?.count ??
 
 const launchRoutes = [
   {
+    href: "/maps",
+    title: "Architecture Maps",
+    eyebrow: "System Shapes",
+    body: "Four visual maps for the runtime core, trust stack, control plane, and platform mesh hiding in the repo.",
+    accent: "cobalt",
+  },
+  {
+    href: "/lenses",
+    title: "Three Lenses",
+    eyebrow: "Public Read",
+    body: "Translate the source dive into lessons, invisible inventions, and resolved tensions instead of a flat walkthrough.",
+    accent: "sand",
+  },
+  {
     href: "/deep-cuts",
     title: "Deep Cuts",
     eyebrow: "Hidden Gems",
@@ -68,9 +82,9 @@ const shockMetrics = [
     note: "public code mass",
   },
   {
-    label: "Product Families",
-    value: "8",
-    note: "hidden inside one repo",
+    label: "Lens Cards",
+    value: "24",
+    note: "public analysis slices",
   },
   {
     label: "Build Flags",
@@ -80,20 +94,20 @@ const shockMetrics = [
 ];
 
 const tracePills = [
-  "PROMPT",
-  "TOOLS",
-  "PERMISSION",
-  "EXECUTION",
-  "MEMORY",
-  "SURFACES",
+  "MAPS",
+  "LESSONS",
+  "INVENTIONS",
+  "TENSIONS",
+  "CONTROL PLANE",
+  "SAFETY",
 ];
 
 const ribbonWords = [
-  "hidden gems and buried systems",
+  "architecture maps from source",
+  "lessons hidden in the tree",
+  "invisible inventions and tradeoffs",
   "terminal-native agent runtime",
   "product archaeology in source form",
-  "tool-governed autonomy",
-  "remote sessions and swarms",
 ];
 
 const revelationCards = [
@@ -115,10 +129,10 @@ const revelationCards = [
   },
   {
     eyebrow: "Not Just Features",
-    title: "The flags read like archaeology",
-    body: "Feature density and split surfaces show where the runtime was heading, where it forked, and which experiments mattered enough to leave deep traces.",
-    value: formatNumber(summary.metrics.buildFlags),
-    label: "feature flags",
+    title: "The code teaches patterns",
+    body: "This Atlas now extracts reusable lessons, hidden inventions, and resolved tensions instead of stopping at architecture screenshots.",
+    value: "24",
+    label: "analysis cards",
     tone: "sand",
   },
 ];
@@ -126,28 +140,57 @@ const revelationCards = [
 const runtimeSteps = [
   {
     step: "01",
-    title: "Deep Cuts",
-    body: "Start with the hidden secrets, the dream agent, the x402 outlier, the buried product bets, and the weird capability clusters.",
+    title: "Maps",
+    body: "Start with the system shapes so the runtime core, trust stack, control plane, and platform mesh become legible immediately.",
   },
   {
     step: "02",
-    title: "Control Plane",
-    body: "See how one prompt expands into placement, tasks, sidecars, worktrees, teammates, and remote execution capsules.",
+    title: "Lenses",
+    body: "Read the same codebase through lessons, invisible inventions, and resolved tensions instead of a flat architecture tour.",
   },
   {
     step: "03",
-    title: "Forked Futures",
-    body: "Track the split browser story, Kairos, remote infrastructure, and the repo's drift toward a multi-surface agent runtime.",
+    title: "Deep Cuts",
+    body: "Drop into the strange material: dream memory, x402, Kairos, split browser futures, and buried product bets.",
   },
   {
     step: "04",
+    title: "Control Plane",
+    body: "Follow how one prompt expands into placement, tasks, sidecars, worktrees, teammates, and remote execution capsules.",
+  },
+  {
+    step: "05",
     title: "Trust Stack",
     body: "Ground the spectacle in the part that matters most: how autonomy is constrained and made inspectable.",
   },
   {
-    step: "05",
+    step: "06",
     title: "Evidence",
-    body: "Every route is source-backed and traceable into the public repo rather than floating on marketing copy.",
+    body: "All evidence now resolves through the local source route because the original upstream repo disappeared.",
+  },
+];
+
+const lensCards = [
+  {
+    href: "/lessons",
+    title: "Lessons",
+    eyebrow: "What The World Can Learn",
+    body: "The design patterns other builders should steal: compositional safety, worktrees, shells, ecosystem layers, and memory as operations.",
+    accent: "cobalt",
+  },
+  {
+    href: "/inventions",
+    title: "Invisible Inventions",
+    eyebrow: "Hidden Mechanisms",
+    body: "The non-obvious seams and runtime moves that make this codebase feel rarer than its surface frame suggests.",
+    accent: "ember",
+  },
+  {
+    href: "/tensions",
+    title: "Resolved Tensions",
+    eyebrow: "Tradeoffs",
+    body: "Where the repo openly wrestles with autonomy vs control, local vs remote, chat vs runtime, and product vs platform.",
+    accent: "sand",
   },
 ];
 
@@ -157,9 +200,9 @@ export default function HomePage() {
       <section className="spectacle-hero">
         <div className="hero-topline">
           <span>March 31, 2026 source dump</span>
-          <span>war room drop 01</span>
-          <span>hidden gems edition</span>
-          <span>evidence over hype</span>
+          <span>war room drop 02</span>
+          <span>architecture maps edition</span>
+          <span>local evidence route</span>
         </div>
 
         <div className="hero-heading">
@@ -180,24 +223,21 @@ export default function HomePage() {
 
           <div className="hero-subcopy">
             <p>
-              The repo is not hiding one architecture diagram. It is hiding buried
-              product bets, split futures, a control plane, a trust stack, a dream
-              agent, and a few capabilities that have no business being in a normal CLI.
+              The repo is not hiding one architecture diagram. It is hiding system
+              shapes, reusable lessons, invisible inventions, resolved tensions, a
+              control plane, a trust stack, and a few capabilities that have no
+              business being in a normal CLI.
             </p>
             <div className="hero-actions">
-              <Link className="button button-primary" href="/deep-cuts">
-                Read The Deep Cuts
+              <Link className="button button-primary" href="/maps">
+                See The Maps
               </Link>
-              <Link className="button button-secondary" href="/control-plane">
-                See The Control Plane
+              <Link className="button button-secondary" href="/lenses">
+                Read The Lenses
               </Link>
             </div>
             <div className="hero-caption">
-              Source-backed from the public code dump and linked analysis in{" "}
-              <a href={sourceRepoUrl} rel="noreferrer" target="_blank">
-                the source repo
-              </a>
-              .
+              Source evidence currently resolves through the <Link href={sourceRepoUrl}>local source route</Link>.
             </div>
           </div>
         </div>
@@ -228,8 +268,8 @@ export default function HomePage() {
           <span className="eyebrow">The Reveal</span>
           <h2>The codebase looks ordinary only until you follow its buried seams.</h2>
           <p className="section-copy">
-            This public Atlas now starts where the surprising material actually is:
-            hidden gems, product archaeology, and the control fabric under the CLI.
+            The Atlas now starts with architecture maps and editorial lenses so the
+            hidden structure becomes legible before you dive into the weird details.
           </p>
         </div>
 
@@ -251,10 +291,10 @@ export default function HomePage() {
       <section className="runtime-path">
         <div className="runtime-path-copy">
           <span className="eyebrow">Atlas Sequence</span>
-          <h2>The story now escalates into the weird parts on purpose.</h2>
+          <h2>The story now starts with system shapes, not just surprise.</h2>
           <p className="section-copy">
-            Instead of easing into structure, the first-scroll path jumps straight into
-            the hidden material and only then cashes it out with evidence routes.
+            The new first-scroll path establishes the maps and lenses first, then drops
+            into hidden gems, control-plane behavior, and source-backed proof.
           </p>
         </div>
 
@@ -271,11 +311,33 @@ export default function HomePage() {
 
       <section className="section-block">
         <div className="section-heading">
-          <span className="eyebrow">Proof Surfaces</span>
-          <h2>The next click cashes out the thesis</h2>
+          <span className="eyebrow">Three Lenses</span>
+          <h2>The public story is now split into three sharper readings</h2>
           <p className="section-copy">
-            These routes are ordered by surprise value first, then by structural proof.
-            Start with the hidden gems if you want the fastest path to the buried story.
+            Instead of flattening everything into one architecture tour, these lenses
+            turn the source dive into reusable lessons, hidden inventions, and visible
+            tradeoffs.
+          </p>
+        </div>
+        <div className="route-grid lens-route-grid">
+          {lensCards.map((route) => (
+            <Link className={`route-card route-card-${route.accent}`} href={route.href} key={route.href}>
+              <span className="eyebrow">{route.eyebrow}</span>
+              <h3>{route.title}</h3>
+              <p>{route.body}</p>
+              <span className="route-arrow">Open lens</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="section-block">
+        <div className="section-heading">
+          <span className="eyebrow">Proof Surfaces</span>
+          <h2>The rest of the Atlas cashes out the thesis</h2>
+          <p className="section-copy">
+            These routes are ordered by structural value first, then by supporting
+            evidence and comparison.
           </p>
         </div>
         <div className="route-grid">
@@ -297,7 +359,7 @@ export default function HomePage() {
       <section className="split-showcase">
         <div className="showcase-panel showcase-panel-light">
           <span className="eyebrow">Feature Flag Constellation</span>
-          <h2>The roadmap leaks through the build gates</h2>
+          <h2>The roadmap still leaks through the build gates</h2>
           <div className="flag-stack">
             {featuredFlags.slice(0, 6).map((flag, index) => (
               <div className="flag-row" key={flag.flag}>
